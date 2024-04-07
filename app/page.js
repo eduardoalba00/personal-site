@@ -20,10 +20,10 @@ export default function Home() {
         {/* Description */}
         <div className="flex flex-col gap-16 opacity-70 text-base lg:text-xl">
           <p>
-            I'm Eduardo, a US based software engineer with two years of work
-            experience and four years of hobbiest react experience. I specialize
-            in creating web applications with a focus on user experience and
-            practical utility.
+            I&apos;m Eduardo, a US based software engineer with two years of
+            work experience and four years of hobbiest react experience. I
+            specialize in creating web applications with a focus on user
+            experience and practical utility.
           </p>
 
           <p>
