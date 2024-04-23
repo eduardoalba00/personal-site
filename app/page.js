@@ -2,6 +2,7 @@ import { robotoMono } from "@/app/ui/fonts";
 import EmailMe from "./ui/components/EmailMe";
 import ProjectCard from "@/app/ui/components/ProjectCard";
 import ScuttleImage from "@/public/scuttle.png";
+import CleanCuratedImage from "@/public/cleancurated.png";
 
 export default function Home() {
   return (
@@ -65,6 +66,12 @@ export default function Home() {
           description="A League of Legends discord bot for fetching and displaying match data."
           icon={ScuttleImage}
           link="https://www.scuttle.gg"
+        />
+        <ProjectCard
+          title="Clean Curated Club"
+          description="Easily transform your affiliate links into an aesthetically pleasing public storefront."
+          icon={CleanCuratedImage}
+          link="https://www.cleancurated.club"
         />
       </div>
     </main>

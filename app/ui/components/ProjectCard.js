@@ -7,7 +7,7 @@ function ProjectCard({ title, description, icon, link }) {
         <Image
           src={icon}
           alt={title}
-          className="rounded-full w-[45px] h-[45px]"
+          className="rounded-full w-[45px] h-[45px] bg-white"
         />
         <div className="flex flex-col">
           <h3 className="text-base md:txt-lg font-bold opacity-85">{title}</h3>
